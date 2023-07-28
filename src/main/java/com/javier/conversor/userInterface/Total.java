@@ -6,6 +6,8 @@ public class Total {
 
 public void crearVentana(String mensaje){
         JOptionPane.showMessageDialog(null,
-                mensaje);
+                mensaje,
+                "Resultado",
+                JOptionPane.INFORMATION_MESSAGE);
     }
 }

@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class Terminar {
     
     public void crearVentana(){
-        JOptionPane.showMessageDialog(null, "Gracias, por usar el conversor de divisas!");
+        JOptionPane.showMessageDialog(null, "Gracias por usar el conversor de divisas!", "Conversor de Divisas", JOptionPane.PLAIN_MESSAGE);
     
     }
 }

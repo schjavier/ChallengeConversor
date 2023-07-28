@@ -1,6 +1,5 @@
 package com.javier.conversor;
 
-import com.javier.conversor.model.Divisas;
 import com.javier.conversor.service.CurrencyService;
 import com.javier.conversor.userInterface.Continuar;
 import com.javier.conversor.userInterface.Input;
@@ -20,7 +19,7 @@ public class Conversor {
             MenuPrincipal menu = new MenuPrincipal();
             menu.crearVentana();
 
-            if (menu.getSeleccion() == "Conversor de Divisas") {
+            if (menu.getSeleccion().equalsIgnoreCase("Conversor de Divisas") ){
                 String divisaBase;
                 String divisaObjetivo;
                 Double monto = 0.0;

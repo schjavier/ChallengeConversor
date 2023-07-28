@@ -13,7 +13,7 @@ public class SelectorDivisas {
             Object selector = JOptionPane.showInputDialog(
             null,
             mensaje,
-            "Selector de Divisas", 
+            "Conversor de Divisas", 
             JOptionPane.QUESTION_MESSAGE,
             null,
             options,
@@ -26,7 +26,7 @@ public class SelectorDivisas {
 
     public String getDivisa(){
         for (Divisas divisa : Divisas.values()){
-            if (this.divisa == divisa.name()) {
+            if (this.divisa.equalsIgnoreCase(divisa.name()) ) {
                 return divisa.codigo;
             }
         }  
