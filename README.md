@@ -1,6 +1,6 @@
 # Challenge Conversor
 
-Conversor de Divisas, realizado en el marco de la Formacion Oracle One de Oracle y Alura Latam!
+Conversor de Divisas, realizado en el marco de la Formación Oracle One de Oracle y Alura Latam!
 
 
 Ejemplo de Funcionamiento.
